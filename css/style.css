@@ -1,0 +1,191 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+h1 h2 h3 {
+  font-family: 'Karla', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  color: black;
+}
+
+nav {
+  max-width: auto;
+  overflow: auto;
+  background-color: #408ade;
+  color: white;
+}
+
+nav .container {
+  padding: 15px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+nav ul a {
+  height: 35px;
+  padding: 0px 30px 0px 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #408ade;
+  text-decoration: none;
+}
+
+nav ul a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main-container {
+  background-color: ghostwhite;
+  width: 1085px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 70px;
+}
+
+main .main-container .donate-list {
+  list-style-type: disc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 800px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .main-container .donate-list li {
+  margin: 10px;
+}
+
+main .main-container .sub-tabs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main-container .sub-tabs ul a {
+  border: 1px solid black;
+  border-bottom: 0px;
+  margin: 0px 3px 0px 3px;
+  padding: 0px 55px 0px 55px;
+}
+
+main p {
+  margin: 40px 50px 40px 50px;
+}
+
+main h1 {
+  margin: 30px;
+}
+
+main .sub-tabs {
+  width: 990px;
+  border-bottom: 1px solid black;
+}
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.hvr-fade-secondary {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: ghostwhite;
+  color: black;
+}
+
+.hvr-fade-secondary:hover, .hvr-fade-secondary:focus, .hvr-fade-secondary:active {
+  background-color: #408ade;
+  color: white;
+}
+
+footer {
+  padding-top: 500px;
+}

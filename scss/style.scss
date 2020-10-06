@@ -1,0 +1,151 @@
+$light-color: white;
+$primary-color: #408ade;
+$secondary-color: black;
+$font-stack: 'Lato', sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: $font-stack;
+}
+
+h1 h2 h3 {
+    font-family: 'Karla', serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $light-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+    color: $secondary-color;
+}
+
+nav {
+    max-width: auto;
+    overflow: auto;
+    background-color: $primary-color;
+    color: $light-color;
+
+    .container {
+        padding: 15px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul {
+        a {
+            height: 35px;
+            padding: 0px 30px 0px 30px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: $primary-color;
+            text-decoration: none;
+        }
+        
+        a:visited { text-decoration: none; color: white }
+
+        width: 700px;
+        display: flex;
+        align-content: flex-end;
+        justify-content: space-between;
+        margin-left: 50px;
+        padding-top: 100px;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    .main-container {
+        background-color: ghostwhite;
+        width: 1085px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 70px;
+        .donate-list {
+            list-style-type: disc;
+            display: flex;
+            justify-content: space-evenly;
+            width: 800px;
+            flex-wrap: wrap;
+            li {
+                margin: 10px;
+            }
+        }
+        .sub-tabs {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    border: 1px solid $secondary-color;
+                    border-bottom: 0px;
+                    margin: 0px 3px 0px 3px;
+                    padding: 0px 55px 0px 55px;
+                }
+            }
+        }
+    }
+    p {
+        margin: 40px 50px 40px 50px;
+    }
+    h1 {
+        margin: 30px;
+    } 
+    .sub-tabs {
+        width: 990px;
+        border-bottom: 1px solid $secondary-color;
+    }
+}
+
+.hvr-fade{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.hvr-fade-secondary{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active{
+    background-color: ghostwhite;
+    color: $secondary-color;
+}
+
+.hvr-fade-secondary:hover, .hvr-fade-secondary:focus, .hvr-fade-secondary:active {
+    background-color: $primary-color;
+    color: white;
+}
+
+footer {
+    padding-top: 500px;
+}
