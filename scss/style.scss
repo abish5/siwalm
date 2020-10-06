@@ -45,6 +45,7 @@ nav {
     }
     ul {
         a {
+            color: white;
             height: 35px;
             padding: 0px 30px 0px 30px;
             border-top-left-radius: 5px;
@@ -52,7 +53,7 @@ nav {
             background-color: $primary-color;
             text-decoration: none;
         }
-        
+    
         a:visited { text-decoration: none; color: white }
 
         width: 700px;
