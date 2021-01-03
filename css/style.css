@@ -84,7 +84,30 @@ main {
           justify-content: center;
 }
 
+main .sidebar {
+  border-radius: 20px;
+  width: 300px;
+  height: 700px;
+  background-color: ghostwhite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+  padding: 30px;
+}
+
 main .main-container {
+  border-radius: 20px;
   background-color: ghostwhite;
   width: 1085px;
   display: -webkit-box;
@@ -120,20 +143,31 @@ main .main-container .donate-list li {
   margin: 10px;
 }
 
+main .main-container .sub-tabs {
+  width: 750px;
+  margin: 50px;
+  border-bottom: 1px solid black;
+}
+
 main .main-container .sub-tabs ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .main-container .sub-tabs ul li {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 main .main-container .sub-tabs ul a {
-  border: 1px solid black;
   border-bottom: 0px;
-  margin: 0px 3px 0px 3px;
-  padding: 0px 55px 0px 55px;
+  padding-left: 31px;
+  padding-right: 31px;
 }
 
 main p {
@@ -144,9 +178,39 @@ main h1 {
   margin: 30px;
 }
 
-main .sub-tabs {
-  width: 990px;
-  border-bottom: 1px solid black;
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+  color: black;
+}
+
+.absolute-wrapper {
+  position: absolute;
+}
+
+.dropdown-content a {
+  background-color: #408ade;
+  border-radius: 0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background-color: #8CB8EB;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .hvr-fade {
@@ -187,6 +251,79 @@ main .sub-tabs {
   color: white;
 }
 
+.carousel-containter {
+  left: 50px;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 100px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  position: relative;
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.slide-controls {
+  padding-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#next-btn,
+#prev-btn {
+  cursor: pointer;
+  background: transparent;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  color: #408ade;
+}
+
+#next-btn:focus,
+#prev-btn:focus {
+  outline: none;
+}
+
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 60px;
+  color: white;
+}
+
 footer {
-  padding-top: 500px;
+  position: relative;
+  background-color: #408ade;
+  margin-top: 10%;
 }

@@ -13,8 +13,17 @@
         <div class="container">
             <a href="index.html"><img href="" src="img/logo.png" alt="SIWALM Logo"></a>
             <ul>
-                <li><a href="about.html" class="hvr-fade">About us</a></li>
-                <li><a href="what_we_do.html" class="hvr-fade">What we do</a></li>
+                <li><a href="about.html" class="hvr-fade dropdown">About us</a></li>
+                <div class="dropdown">
+                    <li class="dropbtn"><a class="hvr-fade">What we do</a></li>
+                    <div class='dropdown-content'>
+                        <a href="training_and_capacity.html">Training and Capacity Building</a>
+                        <a href="piloting_and_demonstration.html">Piloting and Demonstration Activities</a>
+                        <a href="info_and_knowledge.html">Information and Knowledge Managment</a>
+                        <a href="advisory_services.html">Advisory Services</a>
+                        <a style="padding-bottom: 15px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" href="consultancy_services.html">Consultancy Services</a>
+                    </div>
+                </div>
                 <li><a href="get_involved.html" class="hvr-fade">Get Involved</a></li>
                 <li><a href="publications.html" class="hvr-fade">Publications</a></li>
                 <li><a href="careers.html" class="hvr-fade">Careers</a></li>
@@ -22,102 +31,109 @@
         </div>
     </nav>
     <main>
-        <div class="main-container">
-            <h1>OUR WORK</h1>
-            <p>
-                SIWALM is a non-profit training, research and sustainable development institute with headquarter 
-                in Ottawa, Canada and operations centre in Mogadishu, Somalia. The institute is committed to help 
-                Somalia sustainably develop its water and land resources for food, nutrition, livelihood and environmental security.
-                <br><br>
-                The institute was founded by Somali-Canadian research team in 2018 with the conviction that capacity 
-                building and technology transfer are essential for sustainable development of natural resources. 
-                We also believe that it might take longer the country to achieve the Millennium Development Goals (MDGs) 
-                target without scaling up local capacity development at individual, leadership, institutional and 
-                societal level through education, training and knowledge dissemination. 
-                <br><br>
-                SIWALM aims are to build, enhance and 
-                strengthen local human capacities for irrigation development, integrated watershed management and climate change 
-                adaptation, and to facilitate the transfer and dissemination of modern irrigation technology and innovations to 
-                local universities, research centers, NGOs, public and private sector organizations, extension services and farmers 
-                through collaboration, partnership and networking.
-            </p>
-            <div class="sub-tabs">
-                <ul class="tabs">
-                    <li class="tab"><a class="hvr-fade-secondary">Vision</a></li>
-                    <li class="tab"><a class="hvr-fade-secondary">Mission</a></li>
-                    <li class="tab"><a class="hvr-fade-secondary">Objective/goals</a></li>
-                    <li class="tab"><a class="hvr-fade-secondary">Core Values</a></li>
-                    <li class="tab"><a class="hvr-fade-secondary">Partnership</a></li>
-                </ul>
-            </div>
-            <div id="vision-tab">
-                <p>
-                    SIWALM vision is to become a World class Centre of Excellence in Water and Land Management Training, 
-                    Research and Extension Services for Sustainable Agriculture and Rural Development.
-                </p>
-            </div>
-            <div id="mission-tab" hidden>
-                <p>
-                    SIWALM’s mission is to contribute to the education and training of professionals, extension workers 
-                    and farmers and to build the capacity of institutions active in the field of water and land management in Somalia.
-                </p>
-            </div>
-            <div id="objective-tab" hidden>
-                <p>SIWALM's objectives are to:</p>
-                <ul style="list-style-type: disc; margin: 60px;">
-                    <li>Train undergraduate students, young professionals and policy makers in integrated water management principles 
-                        and practices, efficient agriculture water management strategies and modern irrigation technologies through 
-                        workshops, short-term and long-term courses
-                    </li>
+        <div style="width: 1500px" class="main-container">
+            <div style="display: flex; flex-direction: row;">
+                <div>
+                    <h1 style="color: #408ade; margin-left: 200px;">OUR WORK</h1>
+                    <p>
+                        SIWALM is a non-profit training, research and sustainable development institute with headquarter 
+                        in Ottawa, Canada and operations centre in Mogadishu, Somalia. The institute is committed to help 
+                        Somalia sustainably develop its water and land resources for food, nutrition, livelihood and environmental security.
+                        <br><br>
+                        The institute was founded by Somali-Canadian research team in 2018 with the conviction that capacity 
+                        building and technology transfer are essential for sustainable development of natural resources. 
+                        We also believe that it might take longer the country to achieve the Millennium Development Goals (MDGs) 
+                        target without scaling up local capacity development at individual, leadership, institutional and 
+                        societal level through education, training and knowledge dissemination. 
+                        <br><br>
+                        SIWALM aims are to build, enhance and 
+                        strengthen local human capacities for irrigation development, integrated watershed management and climate change 
+                        adaptation, and to facilitate the transfer and dissemination of modern irrigation technology and innovations to 
+                        local universities, research centers, NGOs, public and private sector organizations, extension services and farmers 
+                        through collaboration, partnership and networking.
+                    </p>
+                </div>
+                <div style="width: 900px;">
                     <br>
-                    <li>Train farmers and extension workers in sustainable agriculture practices, improved irrigation technologies 
-                        and enterprise skills through farmer field schools
-                    </li>
-                    <br>
-                    <li>Carry out basic and applied research for developing strategies for efficient management of on-farm water 
-                        resources to enhance agricultural productivity and ecosystems sustainability
-                    </li>
-                    <br>
-                    <li>Promote and implement Integrated River Basin Management (IRBM) approach in the river basins of Somalia</li>
-                    <br>
-                    <li>Provide consultancy, extension and advisory services in irrigation development and water management activities</li>
-                </ul>
-            </div>
-            <div id="corevalues-tab" hidden>
-                <p>
-                    SIWALM work is guided by our five core values and incorporates three cross-cutting themes of gender mainstreaming, 
-                    environmental sustainability and good governance.
-                </p>
-                <ul style="list-style-type: disc; margin: 60px;">
-                    <li><strong>Teamwork:</strong> We work to common goals based on open and honest communication</li>
-                    <br>
-                    <li>
-                        <strong>Innovation and Creativity:</strong> We commit to strive for continuous improvements through innovation 
-                        and promoting a learning organizational culture
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Accountability and Transparency:</strong> We keep partners well informed on all decisions and issues 
-                        and make accessible all programs and projects records to our stakeholders
-                    </li>
-                    <br>
-                    <li><strong>Sustainability:</strong> We build in sustainability from the start of programs and projects to promote 
-                        good governance, technical and financial capacity
-                    </li>
-                    <br>
-                    <li><strong>Empowerment and Leadership:</strong> We will use every opportunity to empower local community both men 
-                        and women including youth to make their lives better
-                    </li>
-                </ul>
-            </div>
-            <div id="partnership-tab" hidden>
-                <p>
-                    SIWALM will pursue meaningful and productive partnerships and team work with a wide variety of organizations that 
-                    represent academia, international development, private sector, government line agencies, NGOs and local community 
-                    so as to enable synergies that have a direct result on finding innovative solutions to water management and 
-                    agriculture sector problems in Somalia. Some of our current potential partners include Somali National University, 
-                    McGill University and International Development Research Center (IDRC).
-                </p>
+                    <div class="sub-tabs">
+                        <ul class="tabs">
+                            <li class="tab hvr-fade-secondary"><a>Vision</a></li>
+                            <li class="tab hvr-fade-secondary"><a>Mission</a></li>
+                            <li class="tab hvr-fade-secondary"><a>Objective/goals</a></li>
+                            <li class="tab hvr-fade-secondary"><a>Core Values</a></li>
+                            <li class="tab hvr-fade-secondary"><a>Partnership</a></li>
+                        </ul>
+                    </div>
+                    <div id="vision-tab">
+                        <p>
+                            SIWALM vision is to become a World class Centre of Excellence in Water and Land Management Training, 
+                            Research and Extension Services for Sustainable Agriculture and Rural Development.
+                        </p>
+                    </div>
+                    <div id="mission-tab" hidden>
+                        <p>
+                            SIWALM’s mission is to contribute to the education and training of professionals, extension workers 
+                            and farmers and to build the capacity of institutions active in the field of water and land management in Somalia.
+                        </p>
+                    </div>
+                    <div id="objective-tab" hidden>
+                        <p>SIWALM's objectives are to:</p>
+                        <ul style="list-style-type: disc; margin: 60px;">
+                            <li>Train undergraduate students, young professionals and policy makers in integrated water management principles 
+                                and practices, efficient agriculture water management strategies and modern irrigation technologies through 
+                                workshops, short-term and long-term courses
+                            </li>
+                            <br>
+                            <li>Train farmers and extension workers in sustainable agriculture practices, improved irrigation technologies 
+                                and enterprise skills through farmer field schools
+                            </li>
+                            <br>
+                            <li>Carry out basic and applied research for developing strategies for efficient management of on-farm water 
+                                resources to enhance agricultural productivity and ecosystems sustainability
+                            </li>
+                            <br>
+                            <li>Promote and implement Integrated River Basin Management (IRBM) approach in the river basins of Somalia</li>
+                            <br>
+                            <li>Provide consultancy, extension and advisory services in irrigation development and water management activities</li>
+                        </ul>
+                    </div>
+                    <div id="corevalues-tab" hidden>
+                        <p>
+                            SIWALM work is guided by our five core values and incorporates three cross-cutting themes of gender mainstreaming, 
+                            environmental sustainability and good governance.
+                        </p>
+                        <ul style="list-style-type: disc; margin: 60px;">
+                            <li><strong>Teamwork:</strong> We work to common goals based on open and honest communication</li>
+                            <br>
+                            <li>
+                                <strong>Innovation and Creativity:</strong> We commit to strive for continuous improvements through innovation 
+                                and promoting a learning organizational culture
+                            </li>
+                            <br>
+                            <li>
+                                <strong>Accountability and Transparency:</strong> We keep partners well informed on all decisions and issues 
+                                and make accessible all programs and projects records to our stakeholders
+                            </li>
+                            <br>
+                            <li><strong>Sustainability:</strong> We build in sustainability from the start of programs and projects to promote 
+                                good governance, technical and financial capacity
+                            </li>
+                            <br>
+                            <li><strong>Empowerment and Leadership:</strong> We will use every opportunity to empower local community both men 
+                                and women including youth to make their lives better
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="partnership-tab" hidden>
+                        <p>
+                            SIWALM will pursue meaningful and productive partnerships and team work with a wide variety of organizations that 
+                            represent academia, international development, private sector, government line agencies, NGOs and local community 
+                            so as to enable synergies that have a direct result on finding innovative solutions to water management and 
+                            agriculture sector problems in Somalia. Some of our current potential partners include Somali National University, 
+                            McGill University and International Development Research Center (IDRC).
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

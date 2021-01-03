@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Karla&family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
     <link rel="stylesheet" href="css/style.css">
-    <script src='js/script.js' async></script>
+    <script src='js/animations.js' async></script>
     <title>Somali Insitute of Water & Land Management</title>
 </head>
 <body>
@@ -13,19 +17,54 @@
         <div class="container">
             <a href="index.html"><img href="" src="img/logo.png" alt="SIWALM Logo"></a>
             <ul>
-                <li><a href="about.html" class="hvr-fade">About us</a></li>
-                <li><a href="what_we_do.html" class="hvr-fade">What we do</a></li>
+                <li><a href="about.html" class="hvr-fade dropdown">About us</a></li>
+                <div class="dropdown">
+                    <li class="dropbtn"><a class="hvr-fade">What we do</a></li>
+                    <div class='dropdown-content'>
+                        <a href="training_and_capacity.html">Training and Capacity Building</a>
+                        <a href="piloting_and_demonstration.html">Piloting and Demonstration Activities</a>
+                        <a href="info_and_knowledge.html">Information and Knowledge Managment</a>
+                        <a href="advisory_services.html">Advisory Services</a>
+                        <a style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" href="consultancy_services.html">Consultancy Services</a>
+                    </div>
+                </div>
                 <li><a href="get_involved.html" class="hvr-fade">Get Involved</a></li>
                 <li><a href="publications.html" class="hvr-fade">Publications</a></li>
                 <li><a href="careers.html" class="hvr-fade">Careers</a></li>
             </ul>
         </div>
     </nav>
-    <header>
-        <img src="img/table-1.jpg" alt="Woman picking crops">
-        <img src="img/table-2.jpg" alt="Group of kids hold water canisters">
-        <img src="img/table-3.jpg" alt="Watering can poured on crops">
-    </header>
+    <main>
+        <div style="margin-left: 200px;" class="main-container">
+            <div class='carousel-containter'> 
+                <div class='slides'>
+                    <div class='slide'>
+                        <img src="img/table-1.jpg" alt="Woman picking crops">
+                    </div>
+                    <div class='slide'>
+                        <img src="img/table-2.jpg" alt="Group of kids hold water canisters">
+                    </div>
+                    <div class='slide'>
+                        <img src="img/table-3.jpg" alt="Watering can poured on crops">
+                    </div>
+                </div>
+                <div class="slide-controls">
+                    <button id="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2 style="color: #408ade;">NEWS & EVENTS</h2>
+            <p>placeholder</p>
+            <p>placeholder</p>
+        </div>
+
+    </main>
     <footer>© 2018 All Rights Reserved. Powered by Datafield Consultancy Services</footer>
 </body>
 </html>
