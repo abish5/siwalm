@@ -7,6 +7,7 @@
 
 p {
   font-family: "Lato", sans-serif;
+  font-size: larger;
 }
 
 h1 h2 h3 {
@@ -125,7 +126,12 @@ main .main-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 70px;
+  margin: 60px;
+  padding-bottom: 30px;
+}
+
+main .main-container li {
+  font-size: large;
 }
 
 main .main-container .donate-list {
@@ -137,13 +143,15 @@ main .main-container .donate-list {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 800px;
+  font-size: large;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-right: 170px;
 }
 
 main .main-container .donate-list li {
-  margin: 10px;
+  font-size: large;
+  margin: 0px 10px 0px 10px;
 }
 
 main .main-container .sub-tabs {
@@ -174,11 +182,11 @@ main .main-container .sub-tabs ul a {
 }
 
 main p {
-  margin: 40px 50px 40px 50px;
+  margin: 0px 50px 15px 50px;
 }
 
 main h1 {
-  margin: 30px;
+  margin: 30px 30px 15px 30px;
 }
 
 li.dropdown {
@@ -232,14 +240,14 @@ li.dropdown {
 
 #tab-navigation ul a {
   font-weight: 900px;
-  color: black;
+  color: #408ade;
   text-decoration: none;
   padding: 0px 30px 0px 30px;
 }
 
 #tab-navigation ul a:visited {
   text-decoration: none;
-  color: black;
+  color: #408ade;
 }
 
 .dropdown-content a {
