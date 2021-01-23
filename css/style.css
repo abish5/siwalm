@@ -21,7 +21,7 @@ ul {
 }
 
 body {
-  background-color: white;
+  background-color: ghostwhite;
   font-family: "Lato", sans-serif;
   line-height: 1.6;
   color: black;
@@ -32,7 +32,7 @@ nav {
   max-width: auto;
   overflow: auto;
   background-color: #408ade;
-  color: white;
+  color: ghostwhite;
 }
 
 nav .container {
@@ -223,7 +223,7 @@ li.dropdown {
   -webkit-box-direction: normal;
       -ms-flex-direction: center;
           flex-direction: center;
-  background-color: ghostwhite;
+  background-color: #ebe8e8;
 }
 
 #tab-navigation ul {

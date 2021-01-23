@@ -1,4 +1,4 @@
-$light-color: white;
+$light-color: ghostwhite;
 $primary-color: #408ade; 
 $secondary-color: black;
 $content-color: #c3daf4;
@@ -13,6 +13,7 @@ $font-stack: 'Lato', sans-serif;
 p {
     font-family: $font-stack;
     font-size: larger;
+    
 }
 
 
@@ -168,7 +169,7 @@ li.dropdown {
     align-items: center;
     justify-content: center;
     flex-direction: center;
-    background-color: ghostwhite;
+    background-color: rgb(235, 232, 232);
     ul {
         a {
             font-weight: 900px;
