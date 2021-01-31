@@ -361,6 +361,7 @@ li.dropdown {
 
 footer {
   position: relative;
-  background-color: #408ade;
+  background-color: ghostwhite;
+  color: ghostwhite;
   margin-top: 20%;
 }
