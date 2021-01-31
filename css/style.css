@@ -49,7 +49,7 @@ nav .container {
 }
 
 nav ul {
-  width: 850px;
+  width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +58,7 @@ nav ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 50px;
+  margin-left: 15px;
   padding-top: 100px;
 }
 
